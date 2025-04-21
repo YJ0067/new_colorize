@@ -5,10 +5,10 @@ fastai==1.0.60
 opencv-python>=4.2.0.32
 Pillow>=9.3.0
 numpy
-
+deoldify 
 # Flask Backend
 Flask
-
+Pillow<10.1.0
 # DeOldify Dependencies
 matplotlib
 ipywidgets
