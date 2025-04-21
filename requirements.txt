@@ -21,6 +21,6 @@ yt-dlp
 jupyterlab
 tensorboardX>=1.6
 wandb
-
+gunicorn
 # PyTorch GPU Wheel Source (optional if using GPU, safe to include)
 --extra-index-url https://download.pytorch.org/whl/cu113
