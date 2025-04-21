@@ -1,0 +1,26 @@
+# Core AI & Vision Libraries
+torch
+torchvision
+fastai==1.0.60
+opencv-python>=4.2.0.32
+Pillow>=9.3.0
+numpy
+
+# Flask Backend
+Flask
+
+# DeOldify Dependencies
+matplotlib
+ipywidgets
+functools32 ; python_version < '3.0'
+
+# Extras (used for training or additional features)
+ffmpeg
+ffmpeg-python
+yt-dlp
+jupyterlab
+tensorboardX>=1.6
+wandb
+
+# PyTorch GPU Wheel Source (optional if using GPU, safe to include)
+--extra-index-url https://download.pytorch.org/whl/cu113

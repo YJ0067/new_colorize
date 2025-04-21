@@ -1,0 +1,26 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pyc
+
+# Virtual environment
+venv/
+
+# Uploaded files and generated results
+uploads/
+result_images/
+results/
+
+# Model checkpoints and temporary model files
+models/*.pth
+models/tmp*
+
+# VSCode settings (optional)
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
